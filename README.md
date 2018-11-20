@@ -1,6 +1,10 @@
 ## Metrics
 -------------------------------------------------
-### Description
+### Setup
+First, Download the metric code from [tkarras/progressive_growing_of_gans](https://github.com/tkarras/progressive_growing_of_gans)
+and put them into current dir which contain metric.py(i.e. ms_ssim.py and metric.py must be under same dir).
+
+### Usage
 
     python metric.py $1 $2 -m -s
     $1: gan_img_dir
